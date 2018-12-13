@@ -1,0 +1,33 @@
+{
+  "name": "Chainpoint Cloudflare App Web",
+  "version": "0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "lint": "standard --fix ./source/**/*.js || true"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chainpoint/chainpoint-cloudflare-app-web.git"
+  },
+  "author": "Tierion Inc.",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/chainpoint/chainpoint-cloudflare-app-web/issues"
+  },
+  "homepage": "https://github.com/chainpoint/chainpoint-cloudflare-app-web#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "standard": "^9.0.2"
+  },
+  "standard": {
+    "globals": [
+      "INSTALL",
+      "INSTALL_OPTIONS",
+      "INSTALL_SCOPE",
+      "INSTALL_PRODUCT",
+      "INSTALL_ID"
+    ]
+  }
+}

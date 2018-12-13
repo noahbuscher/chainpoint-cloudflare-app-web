@@ -1,2 +1,3 @@
-# chainpoint-cloudflare-app-web
-Chainpoint Client Web for Cloudflare
+# Chainpoint Cloudflare App for Web
+
+This is the Chainpoint Client Web for Cloudflare.
