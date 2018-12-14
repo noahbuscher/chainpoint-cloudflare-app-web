@@ -10,7 +10,7 @@ function init() {
     // Dynamically add CCW script
     const script = document.createElement('script');
     script.setAttribute('type', 'application/javascript');
-    script.setAttribute('src', 'https://cdn.jsdelivr.net/gh/noahbuscher/chainpoint-client-web@3a882f5/dist/bundle.js');
+    script.setAttribute('src', 'https://web-client.chainpoint.org/latest.js');
     document.getElementsByTagName('body')[0].appendChild(script);
 
     // Add CCW instance
